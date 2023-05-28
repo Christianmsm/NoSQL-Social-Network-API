@@ -35,21 +35,21 @@ module.exports = {
             )
         })
         .then((results) => {
-            res.status(201).json(results)
+            res.status(200).json(results)
         })
         .catch((err) => res.status(500).json(err));
     },
     updateUser(req, res) {
         User.findOneAndUpdate({ _id: req.params.userId }, req.body, {new: true})
         .then((result) => {
-            res.status(201).json(result)
+            res.status(200).json(result)
         })
         .catch((err) => res.status(500).json(err));
     },
     deleteUser(req, res) {
         User.findOneAndDelete({ _id: req.params.userId })
         .then((result) => {
-            res.status(201).json(result)
+            res.status(200).json(result)
         })
         .catch((err) => res.status(500).json(err));
     },
@@ -60,7 +60,7 @@ module.exports = {
             {new: true}
         )
         .then((results) => {
-            res.status(201).json(results)
+            res.status(200).json(results)
         })
         .catch((err) => res.status(500).json(err));
     }
