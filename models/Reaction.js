@@ -21,12 +21,6 @@ const reactionSchema = new Schema(
             get: (createdAt) => createdAt.toISOString()
         },
     },
-    {
-        toJSON: {
-            getters: true,
-        },
-        id: false,
-    }
 );
 
 
