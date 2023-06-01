@@ -36,7 +36,7 @@ Currently there are no contributions being taken.
 
 ## Resources
 Video submission:
-
+https://drive.google.com/file/d/1L35Qr62fKjwk9s5rs6MopRCUSlp7QyeL/view
 
 ## GitHub
 Christianmsm: https://github.com/Christianmsm
